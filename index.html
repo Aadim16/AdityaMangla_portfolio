@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>Portfolio website complete</title>
+        <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+
+        
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Aditya Mangla</a>
+                    <!-- <button class="toggle-btn" onclick="toggleTheme()">🌙</button> -->
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Projects</a></li>
+                        <li class="nav__item"><a href="#Intern" class="nav__link">internships</a></li>
+                        <li class="nav__item"><a href="#cocur" class="nav__link">Contribution</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">
+                        Hi,<br>
+                        I'am <span class="home__title-color">Aditya</span><br>
+                        Engineer with a<br><span class="home__title-color">Code-First Mindset</span>
+                    </h1>
+                    
+                    <!-- <h1 class="home__title"><span class="home__title-color">Software Engineer</span></h1> -->
+                    <a href="#contact" class="button">Resume</a>
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/in/aditya-mangla-2ab0b4229/" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                    <a href="mailto:adityamangla2005@gmail.com" class="home__social-icon">
+                        <i class='bx bx-envelope'></i></a>
+                    <a href="https://github.com/Aadim16" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                </div>
+
+                <div class="home__img">
+                    <div class="circular-img">
+                        <img src="assets/images/adityamanglaphutu.jpg" alt="Your Image" class="circular-img__img" />
+
+                    </div>
+                </div>
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
+                <div class="about__container bd-grid">
+                    <div class="about__img-box">
+                        <img src="assets\images\istockphoto-1413922045-612x612.jpg" alt="About Visual" class="about__img-side">
+                    </div>
+                    <div>
+                        <h2 class="about__subtitle">Hey! I'am "Aditya Mangla"</h2>
+                        <p class="about__text">
+                            Hi, I’m Aditya Mangla — a Computer Science Engineering student at VITAP University with a strong foundation in data analytics, web development, and project leadership. Over the past 2.5+ years, I’ve been deeply involved in building real-world solutions, whether it’s through internships, technical projects, or social initiatives.
+                        </p>
+                    </div>
+                </div>
+                
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+
+                <div class="skills__container bd-grid">
+                    <div>
+                        <h2 class="skills__subtitle">Professional Skills</h2>
+                        <p class="skills__description">My core strength lies in Java, which I’ve used extensively to develop robust and scalable backend systems and applications. I have a deep understanding of object-oriented programming, data structures, and algorithms, which I apply effectively in Java-based development. Beyond Java, I’m also proficient in Python for data analysis and scripting tasks.</p>
+                        <br>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <img src="https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg" alt="Java Logo" class="skills__icon-img">
+
+                                <span class="skills__name">Java</span>
+                            </div>
+                            <div class="skills__bar skills__html"></div>
+                            <div><span class="skills__percentage">95%</span></div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="Python Logo" class="skills__icon-img">
+                                <span class="skills__name">Python</span>
+                            </div>
+                            
+                            <div class="skills__bar skills__css"></div>
+                            <div><span class="skills__percentage">95%</span></div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <!-- <i class='bx bxl-javascript skills__icon'></i>
+                                -->
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="React Logo" class="skills__icon-img">
+
+                                <span class="skills__name">JavaScript / React</span>
+                            </div>
+                            <div class="skills__bar skills__js"></div>
+                            <div><span class="skills__percentage">78%</span></div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <!-- <i class='bx bx-brain skills__icon'></i> -->
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/2/2d/Tensorflow_logo.svg" alt="Machine Learning Logo" class="skills__icon-img">
+
+                                <span class="skills__name">Machine Learning</span>
+                            </div>
+                            <div class="skills__bar skills__ux"></div>
+                            <div><span class="skills__percentage">90%</span></div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <!-- <img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/OpenAI_Logo.svg" alt="AI Logo" class="skills__icon-img"> -->
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="Python Logo" class="skills__icon-img">
+                                <!-- https://upload.wikimedia.org/wikipedia/commons/6/69/Hugging_Face_logo.svg" alt="NLP Logo" class="skills__icon-img"> --> 
+                                <span class="skills__name">Natural Language Processing</span>
+                            </div>
+                            
+                            <div class="skills__bar skills__ux"></div>
+                            <div><span class="skills__percentage">85%</span></div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <!-- <i class='bx bx-code-alt skills__icon'></i> -->
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="Scikit-learn Logo" class="skills__icon-img">
+                                <span class="skills__name">Python Libraries</span>
+                            </div>
+                            <div class="skills__bar skills__ux"></div>
+                            <div><span class="skills__percentage">95%</span></div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/7/75/Django_logo.svg" alt="Django Logo" class="skills__icon-img">
+                                <span class="skills__name">Django</span>
+                            </div>
+                            <div class="skills__bar skills__ux"></div>
+                            <div><span class="skills__percentage">80%</span></div>
+                        </div>
+                        
+                    </div>
+
+                    <!-- <div>
+                        <img src="assets/img/work3.jpg" alt="" class="skills__img">
+                    </div> -->
+                    <div class="skills__side-img-container">
+                        <img src="assets/images/WhatsApp Image 2024-08-21 at 19.38.54_2dac9048.jpg" alt="Side Visual" class="skills__side-img">
+                    </div>
+                    
+                </div>
+            </section>
+
+            <!--===== WORK =====-->
+            <section class="work section" id="work">
+                <h2 class="section-title">Projects</h2>
+
+                <div class="work__container bd-grid">
+                    
+                    <div class="work__container bd-grid">
+
+                        <div style="display: inline-block; border-radius: 8px; overflow: hidden; width: 350px;">
+                            <a href="https://github.com/Aadim16/QuoraQuestionPairs" class="work__img">
+                                <img src="assets/images/653b79817cb01ef7baaa1689_Quora.png" alt="" style="display: block; width: 100%; height: 200px; object-fit: cover;">
+                            </a>
+                            <div style="background-color: #f0f0f0; border: 1px solid #ccc; border-top: none; padding: 10px; box-sizing: border-box; font-size: 14px;">
+                                Quora Question Pairs. 
+                                <a href="https://github.com/Aadim16/QuoraQuestionPairs" target="_blank" style="color: #007bff; text-decoration: none;">Read more</a>
+                            </div>
+                        </div>
+                    
+                        <div style="display: inline-block; border-radius: 8px; overflow: hidden; width: 350px;">
+                            <a href="https://github.com/Aadim16/hackathon_management_system" class="work__img">
+                                <img src="assets/images/marvin-meyer-SYTO3xs06fU-unsplash.jpg" alt="" style="display: block; width: 100%; height: 200px; object-fit: cover;">
+                            </a>
+                            <div style="background-color: #f0f0f0; border: 1px solid #ccc; border-top: none; padding: 10px; box-sizing: border-box; font-size: 14px;">
+                                Hackathon Management System. 
+                                <a href="https://github.com/Aadim16/hackathon_management_system" target="_blank" style="color: #007bff; text-decoration: none;">Read more</a>
+                            </div>
+                        </div>
+                    
+                        <div style="display: inline-block; border-radius: 8px; overflow: hidden; width: 350px;">
+                            <a href="https://github.com/Aadim16/INeuBytes_010255" class="work__img">
+                                <img src="assets/images/Screenshot 2025-04-06 014222.png" alt="" style="display: block; width: 100%; height: 200px; object-fit: cover;">
+                            </a>
+                            <div style="background-color: #f0f0f0; border: 1px solid #ccc; border-top: none; padding: 10px; box-sizing: border-box; font-size: 14px;">
+                                E-commerce Business Analysis. 
+                                <a href="https://github.com/Aadim16/INeuBytes_010255" target="_blank" style="color: #007bff; text-decoration: none;">Read more</a>
+                            </div>
+                        </div>
+                    
+                        <div style="display: inline-block; border-radius: 8px; overflow: hidden; width: 350px;">
+                            <a href="https://github.com/Aadim16/crop_recommender" class="work__img">
+                                <img src="assets/images/original.jpg" alt="" style="display: block; width: 100%; height: 200px; object-fit: cover;">
+                            </a>
+                            <div style="background-color: #f0f0f0; border: 1px solid #ccc; border-top: none; padding: 10px; box-sizing: border-box; font-size: 14px;">
+                                Agrorevive :- Smart crop recommendation System. 
+                                <a href="https://github.com/Aadim16/crop_recommender" target="_blank" style="color: #007bff; text-decoration: none;">Read more</a>
+                            </div>
+                        </div>
+                    <!-- <a href="#" class="work__img">
+                        <img src="assets/img/work5.jpg" alt="">
+                    </a>
+                    <a href="#" class="work__img">
+                        <img src="assets/img/work6.jpg" alt="">
+                    </a> -->
+                </div>
+            </section>
+
+            <!--===== CONTACT =====-->
+            <section class="Intern" id="Intern">
+                <h2 class="section-title">Internships</h2>
+            
+                <section>
+                    <div class="work__container bd-grid" style="display: flex; gap: 40px; flex-wrap: wrap; justify-content: center; margin-bottom: 40px;">
+            
+                        <div style="border-radius: 8px; overflow: hidden; width: 400px; border: 3px solid #999;">
+                            <a href="" class="work__img">
+                                <img src="assets/images/1688122702.webp" alt="" style="display: block; width: 100%; height: 200px;">
+                            </a>
+                            <div style="background-color: #f0f0f0; border-top: none; padding: 10px; box-sizing: border-box; font-size: 14px;">
+                                INeuBytes. 
+                                <a href="https://drive.google.com/file/d/1-nsy7wb8oT910nqhS-Dy0LTj1qzfxbou/view?usp=sharing" target="_blank" style="color: #007bff; text-decoration: none;">Certificate</a>
+                            </div>
+                        </div>
+            
+                        <div style="border-radius: 8px; overflow: hidden; width: 400px; border: 3px solid #999;">
+                            <a href="" class="work__img" style="height: 100px;">
+                                <img src="assets\images\images (1).png" alt="" style="display: block; width: 85%; height: 200px;">
+                            </a>
+                            <div style="background-color: #f0f0f0; border-top: none; padding: 10px; box-sizing: border-box; font-size: 14px;">
+                                Apropos Technologies Pvt. Ltd. 
+                                <a href="https://drive.google.com/file/d/1Se-TKFmkNrMc3lg44j-mM8TlkhLRL7Qq/view?usp=sharing" target="_blank" style="color: #007bff; text-decoration: none;">Certificate</a>
+                            </div>
+                        </div>
+            
+                    </div>
+                </section>
+            </section>
+            
+            
+                <!-- <div class="contact__container bd-grid">
+                    <form action="#" class="contact__form">
+                        <input type="text" placeholder="Name" class="contact__input">
+                        <input type="email" placeholder="Email" class="contact__input">
+                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+                        <input type="submit" value="Send" class="contact__button button">
+                    </form>
+                </div> -->
+            </section>
+        </main>
+
+
+        <section class="work section" id="cocur">
+            <h2 class="section-title">Clubs and chapters</h2>
+
+            <div class="work__container bd-grid">
+                
+                <div class="work__container bd-grid">
+                    <div style="display: inline-block; border-radius: 8px; overflow: hidden; width: 350px;">
+                        <a href="" class="work__img">
+                            <img src="assets\images\haryana_admin.png" alt="" style="display: block; width: 100%; height: 200px; object-fit: cover;">
+                        </a>
+                        <div style="background-color: #f0f0f0; border: 1px solid #ccc; border-top: none; padding: 10px; box-sizing: border-box; font-size: 14px;">
+                            Club Cheif Advisor
+                            <br>
+                            (Haryana Association)
+                            <!-- <a href="https://github.com/Aadim16/QuoraQuestionPairs" target="_blank" style="color: #007bff; text-decoration: none;">Read more</a> -->
+                        </div>
+                    </div>
+
+                    <div style="display: inline-block; border-radius: 8px; overflow: hidden; width: 350px;">
+                        <a href="" class="work__img">
+                            <img src="assets\images\Screenshot 2025-04-10 002636.png" alt="" style="display: block; width: 100%; height: 200px; object-fit: cover;">
+                        </a>
+                        <div style="background-color: #f0f0f0; border: 1px solid #ccc; border-top: none; padding: 10px; box-sizing: border-box; font-size: 14px;">
+                            National Service Scheme.(volunteer)
+                            <a href="https://drive.google.com/file/d/1oa_y3cXHG-joQjlyNpBV-siCApabOT_k/view?usp=sharing" target="_blank" style="color: #007bff; text-decoration: none;">Read more</a>
+                        </div>
+                    </div>
+
+                    <div style="display: inline-block; border-radius: 8px; overflow: hidden; width: 350px;">
+                        <a href="" class="work__img">
+                            <img src="assets\images\Screenshot 2025-04-10 002830.png" alt="" style="display: block; width: 100%; height: 200px; object-fit: cover;">
+                        </a>
+                        <div style="background-color: #f0f0f0; border: 1px solid #ccc; border-top: none; padding: 10px; box-sizing: border-box; font-size: 14px;">
+                            Beat the Heat,VITAP Dance Club
+                            <br>
+                            Crew member
+                            <!-- <a href="https://github.com/Aadim16/hackathon_management_system" target="_blank" style="color: #007bff; text-decoration: none;">Read more</a> -->
+                        </div>
+                    </div>
+                
+                    <div style="display: inline-block; border-radius: 8px; overflow: hidden; width: 350px;">
+                        <a href="https://github.com/Aadim16/INeuBytes_010255" class="work__img">
+                            <img src="assets\images\ar rally.png" alt="" style="display: block; width: 100%; height: 200px; object-fit: cover;">
+                        </a>
+                        <div style="background-color: #f0f0f0; border: 1px solid #ccc; border-top: none; padding: 10px; box-sizing: border-box; font-size: 14px;">
+                            Event management co-lead (Haryana Association) 
+                            <a href="https://drive.google.com/file/d/1z9GalvBbcv9JMwxg70-QnKk4oa4XOOz2/view?usp=sharing" target="_blank" style="color: #007bff; text-decoration: none;">Read more</a>
+                        </div>
+                    </div>
+                
+                <!-- <a href="#" class="work__img">
+                    <img src="assets/img/work5.jpg" alt="">
+                </a>
+                <a href="#" class="work__img">
+                    <img src="assets/img/work6.jpg" alt="">
+                </a> -->
+            </div>
+        </section>
+
+
+        <footer class="footer">
+            <div class="footer__container">
+            <!-- Left Section -->
+            <div class="footer__left">
+                <p class="footer__title">Aditya Mangla</p>
+                <br>
+                <p>Computer Science and Engineering (2026)</p>
+                <p>Vellore Institute of Technology-Amaravati, Andhra Pradesh, India</p>
+            </div>
+            <!-- Vertical Divider -->
+            <div class="footer__divider"></div>
+            <!-- Right Section -->
+            <div class="footer__right">
+                <p class="footer__title">Contact</p>
+                <p>Ph no. +91-7404263541</p>
+                <div class="footer__social">
+                <p>Links</p>
+                <a href="https://www.instagram.com/adityamangla_/" class="footer__icon" style="margin-left: 5px;"><i class='bx bxl-instagram'></i></a>
+                <a href="https://www.linkedin.com/in/aditya-mangla-2ab0b4229/" class="footer__icon" style="margin-left: 5px;"><i class='bx bxl-linkedin'></i></a>
+                <a href="mailto:adityamangla2005@gmail.com" class="footer__icon" style="margin-left: 5px;"><i class='bx bx-envelope'></i></a>
+                <a href="https://github.com/Aadim16" class="footer__icon" style="margin-left: 5px;"><i class='bx bxl-github'></i></a>
+                </div>
+                <!-- <p class="footer__copy">&#169; Aditya Mangla. All rights reserved</p> -->
+            </div>
+            </div>
+        </footer>
+        
+        
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
